@@ -1,0 +1,46 @@
+﻿
+
+/*DEBUG*/
+.debug {
+    padding-bottom: 20px;
+}
+
+#txtDebug {
+    width: 305px;
+}
+/*DEBUG*/
+
+body {
+    background-color: lightseagreen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: default;
+}
+    ::selection { background: transparent; }
+    ::-moz-selection { background: transparent; }
+
+.gameBoard {
+    display: inline-block;
+    width: 355px;
+    height: 348px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 6px;
+    background-color: #e54b4b;
+}
+.tile {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: aquamarine;
+    transition: all 0.2s;
+}
+    .tile:hover {
+        background-color: azure;
+        box-shadow: rgba(0,0,0,0.4) 2px 2px;
+        transition: all 0.2s;
+    }
+
+    .tile:active {
+        background-color: #f3f2d3;
+        transition: all 0.2s;
+    }
